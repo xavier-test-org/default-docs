@@ -1,38 +1,22 @@
-# Welcome to your ReadMe docs 👋
+# Welcome to same-name
 
-This repo is the home for your [ReadMe](https://readme.com) documentation. Everything here, including guides, API references, and custom pages, shows up on your docs site.
-
-The easiest way to work on your docs locally is with the [`@readme/cli`](https://www.npmjs.com/package/@readme/cli). Here are a few commands to get you started:
-
-To get started with readme as a customer, you should install the readme CLI:
+To get started with same-name, you should go ahead and install the same-name cli
 
 ```sh
-brew install readme
+brew install same-name
 ```
 
 Then, you can start creating an account and project with:
 
 ```sh
-readme auth create-account
-readme auth create-project
+same-name auth create-account
+same-name auth create-project
 ```
 
-Lint your docs:
+To edit your customer profile after signing in via CLI, use the command:
 
 ```sh
-npx @readme/cli lint
+same-name profile edit
 ```
 
-Configure linting for every branch via GitHub Actions:
-
-```sh
-npx @readme/cli setup:github
-```
-
-Or view the full list. You can preview docs locally, validate your OAS specs, install AI skills and more:
-
-```sh
-npx @readme/cli --help
-```
-
-Want to learn more? Read [about ReadMe](https://docs.readme.com/main/docs/about-readme) or browse the [`@readme/cli` on npm](https://www.npmjs.com/package/@readme/cli).
+That takes you to https://www.samename.com/profile/update
