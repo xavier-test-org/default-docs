@@ -4,6 +4,19 @@ This repo is the home for your [ReadMe](https://readme.com) documentation. Every
 
 The easiest way to work on your docs locally is with the [`@readme/cli`](https://www.npmjs.com/package/@readme/cli). Here are a few commands to get you started:
 
+To get started with readme as a customer, you should install the readme CLI:
+
+```sh
+brew install readme
+```
+
+Then, you can start creating an account and project with:
+
+```sh
+readme auth create-account
+readme auth create-project
+```
+
 Lint your docs:
 
 ```sh
